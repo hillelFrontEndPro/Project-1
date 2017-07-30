@@ -21,8 +21,10 @@ nav ul {
 
 nav ul li {
     display: block;
-    float: left;
-    padding: 8px 25px;
+    //float: left;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    //padding: 8px 25px;
 }
 
 /* Style for "Michael Wi" */
