@@ -6823,8 +6823,22 @@ nav ul {
 }
 nav ul li {
   display: block;
-  float: left;
-  padding: 8px 25px;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  position: relative;
+}
+.numbermessage {
+  content: "+14";
+  color: black;
+  display: inline-block;
+  position: absolute;
+  top: 1pt;
+  right: 1px;
+}
+.fotobond {
+  /* Style for "img" */
+  width: 64px;
+  height: 64px;
 }
 /* Style for "Michael Wi" */
 .bond {
