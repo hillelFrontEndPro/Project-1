@@ -6910,6 +6910,28 @@ nav ul li {
 .sidebar img {
   margin-top: 20px;
 }
+.menu_actions {
+  height: 142px;
+  width: 100%;
+}
+#hexagon img {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 50px;
+}
+.glyphicon {
+  right: 58px;
+  top: 35px;
+  font-size: 30px;
+  color: white;
+}
+.welcome {
+  width: 200px;
+  margin-left: 60px;
+}
+.tabs {
+  width: 495px;
+}
 * {
   padding: 0;
   margin: 0;

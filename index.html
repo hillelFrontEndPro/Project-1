@@ -82,7 +82,110 @@
             </ul>
         </div>
         <div class="container-content">
-            <div class="dashboard"></div>
+            <div class="dashboard">
+                <div class="welcome">
+                   <h3>Dashboard</h3>
+                   <h5>Welcome</h5>
+                </div>
+
+                <!--<div class="container">-->
+                    <!--<div class="row">-->
+                        <!--<div class="col-md-8">-->
+                            <!--<div class="list-group list-group-horizontal quick-tab-menu">-->
+                                <!--<a href="#" class="list-group-item active text-center">-->
+                                    <!--<h4 class="glyphicon glyphicon-th"></h4>-->
+                                <!--</a>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+                 <!--Вкладки (навигация по панелям)-->
+                <div class="tabs">
+                <ul class="nav nav-tabs" id="myTabEvents">
+                    <li class="active">
+                        <!--<div class="quick_menu>">-->
+                            <!--<i class="glyphicon glyphicon-th"></i>-->
+                            <a class="tab-nav" data-toggle="tab" href="#hexagon">
+                             Quick Menu Actions
+                            </a>
+                        <!--</div>-->
+                    </li>
+                    <li>
+                        <!--<div class="statics>">-->
+                            <!--<i class="glyphicon glyphicon-calendar"></i>-->
+                            <a class="tab-nav" data-toggle="tab" href="#hexagon_2">
+                          Web Site Statistics
+                            </a>
+                        <!--</div>-->
+                    </li>
+                    <li>
+                        <!--<div class="calendar>">-->
+                        <a class="tab-nav" data-toggle="tab" href="#hexagon_3">
+                        <!--<img src="assets/images/sidebar-icon3.png" class="tabnav" data-toggle="tab">-->
+                        Calendar
+                        </a>
+                    <!--</div>-->
+                    </li>
+                </ul>
+                </div>
+
+                <!-- Панели -->
+                <div class="tab-content" id="myTabContent">
+                    <!-- Панель 1 -->
+                    <div id="hexagon" class="tab-pane fade in active">
+                        <!-- Содержимое панели 1 -->
+                            <img src="assets/images/hexagon_1.png" data-toggle="tooltip" data-placement="bottom" title="Add Article">
+                            <!--<span class="glyphicon glyphicon-plus"></span>-->
+                            <img src="assets/images/hexagon_2.png">
+                            <!--<span class="glyphicon glyphicon-stats"></span>-->
+                            <img src="assets/images/hexagon_3.png">
+                            <!--<span class="glyphicon glyphicon-repeat"></span>-->
+                            <img src="assets/images/hexagon_4.png">
+                            <!--<span class="glyphicon glyphicon-cog"></span>-->
+                            <img src="assets/images/hexagon_5.png">
+                            <!--<span class="glyphicon glyphicon-cloud"></span>-->
+                            <img src="assets/images/hexagon_3.png">
+                            <!--<span class="glyphicon glyphicon-align-justify"></span>-->
+                        </div>
+                    <!-- Панель 2 -->
+                    <div id="hexagon_2" class="tab-pane fade">
+                        <!-- Содержимое панели 2 -->
+                            <img src="assets/images/hexagon_1.png" data-toggle="tooltip" data-placement="bottom" title="Add Article">
+                            <span class="glyphicon glyphicon-plus"></span>
+                            <img src="assets/images/hexagon_5.png">
+                            <span class="glyphicon glyphicon-stats"></span>
+                            <img src="assets/images/hexagon_3.png">
+                            <span class="glyphicon glyphicon-repeat"></span>
+                            <img src="assets/images/hexagon_4.png">
+                            <span class="glyphicon glyphicon-cog"></span>
+                            <img src="assets/images/hexagon_2.png">
+                            <span class="glyphicon glyphicon-cloud"></span>
+                            <img src="assets/images/hexagon_3.png">
+                            <span class="glyphicon glyphicon-align-justify"></span>
+                    </div>
+                    <!-- Панель 3 -->
+                    <div id="hexagon_3" class="tab-pane fade">
+                        <!-- Содержимое панели 3 -->
+                            <img src="assets/images/hexagon_1.png" data-toggle="tooltip" data-placement="bottom" title="Add Article">
+                            <!--<span class="glyphicon glyphicon-plus"></span>-->
+                            <img src="assets/images/hexagon_2.png">
+                            <!--<span class="glyphicon glyphicon-stats"></span>-->
+                            <img src="assets/images/hexagon_3.png">
+                            <!--<span class="glyphicon glyphicon-repeat"></span>-->
+                            <img src="assets/images/hexagon_4.png">
+                            <!--<span class="glyphicon glyphicon-cog"></span>-->
+                            <img src="assets/images/hexagon_5.png">
+                            <!--<span class="glyphicon glyphicon-cloud"></span>-->
+                            <img src="assets/images/hexagon_3.png">
+                            <!--<span class="glyphicon glyphicon-align-justify"></span>-->
+                    </div>
+                    <!--<hr>-->
+                    <!--<p class="tab-active"><strong>Активная вкладка</strong>: <span></span></p>-->
+                    <!--<p class="tab-previous"><strong>Предыдущая активная вкладка</strong>: <span></span></p>-->
+                </div>
+
+                </div>
             <div class="statistics"></div>
             <div class="comments"></div>
             <div class="calendar"></div>
@@ -91,7 +194,6 @@
     </main>
 </div>
 
-<script type="application/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
 
