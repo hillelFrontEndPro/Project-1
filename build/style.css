@@ -6823,17 +6823,23 @@ nav ul {
 }
 nav ul li {
   display: block;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
+  padding-left: 20px !important;
+  padding-right: 30px !important;
   position: relative;
 }
+/*
+nav ul li:nth-child(3) {
+    width: 20px;
+    display: block;
+}
+*/
 .numbermessage {
   content: "+14";
   color: black;
   display: inline-block;
   position: absolute;
-  top: 1pt;
-  right: 1px;
+  top: 0;
+  right: 0;
 }
 .fotobond {
   /* Style for "img" */
@@ -6909,6 +6915,25 @@ nav ul li {
 }
 .sidebar img {
   margin-top: 20px;
+}
+.form {
+  width: 200px;
+  float: right;
+}
+#forminput {
+  padding: 10px;
+}
+#forminput input {
+  margin: 5px 5px 0 0;
+}
+#forminput div {
+  margin: 10px 5px 0 0;
+}
+#forminput textarea {
+  margin: 10px 5px 0 0;
+}
+#bottomsubmit {
+  float: right;
 }
 * {
   padding: 0;
