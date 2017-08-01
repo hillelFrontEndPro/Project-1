@@ -6823,18 +6823,80 @@ nav ul {
 }
 nav ul li {
   display: block;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
+  padding-left: 20px !important;
+  padding-right: 30px !important;
   position: relative;
 }
-.numbermessage {
-  content: "+14";
-  color: black;
-  display: inline-block;
-  position: absolute;
-  top: 1pt;
-  right: 1px;
+/*
+nav ul li:nth-child(3) {
+    width: 20px;
+    display: block;
 }
+*/
+nav ul li:nth-child(3):after {
+  content: "+14";
+  color: #ffffff;
+  display: block;
+  width: 30px;
+  height: 22px;
+  font-size: 12px;
+  border-radius: 40%;
+  background-color: #e86f56;
+  position: absolute;
+  text-align: center;
+  line-height: 22px;
+  top: -10px;
+  right: -10px;
+}
+nav ul li:nth-child(4):after {
+  content: "+27";
+  color: #ffffff;
+  display: block;
+  width: 30px;
+  height: 22px;
+  font-size: 12px;
+  border-radius: 40%;
+  background-color: #e86f56;
+  position: absolute;
+  text-align: center;
+  line-height: 22px;
+  top: -10px;
+  right: -10px;
+}
+nav ul li:nth-child(5):after {
+  content: "+109";
+  color: #ffffff;
+  display: block;
+  width: 30px;
+  height: 22px;
+  font-size: 12px;
+  border-radius: 40%;
+  background-color: #e86f56;
+  position: absolute;
+  text-align: center;
+  line-height: 22px;
+  top: -10px;
+  right: -10px;
+}
+/*
+.numbermessage:after {
+
+    content: "+14";
+    color: #ffffff;
+    display:block;
+    width: 30px;
+    height: 22px;
+    font-size: 12px;
+    border-radius: 40%;
+    background-color: #e86f56;
+    position: absolute;
+    text-align: center;
+    line-height: 22px;
+    top: -10px;
+    right:-10px;
+
+}
+*/
 .fotobond {
   /* Style for "img" */
   width: 64px;
@@ -6909,6 +6971,25 @@ nav ul li {
 }
 .sidebar img {
   margin-top: 20px;
+}
+.form {
+  width: 200px;
+  float: right;
+}
+#forminput {
+  padding: 10px;
+}
+#forminput input {
+  margin: 5px 5px 0 0;
+}
+#forminput div {
+  margin: 10px 5px 0 0;
+}
+#forminput textarea {
+  margin: 10px 5px 0 0;
+}
+#bottomsubmit {
+  float: right;
 }
 * {
   padding: 0;
