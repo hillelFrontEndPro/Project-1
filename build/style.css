@@ -6833,14 +6833,70 @@ nav ul li:nth-child(3) {
     display: block;
 }
 */
-.numbermessage {
+nav ul li:nth-child(3):after {
   content: "+14";
-  color: black;
-  display: inline-block;
+  color: #ffffff;
+  display: block;
+  width: 30px;
+  height: 22px;
+  font-size: 12px;
+  border-radius: 40%;
+  background-color: #e86f56;
   position: absolute;
-  top: 0;
-  right: 0;
+  text-align: center;
+  line-height: 22px;
+  top: -10px;
+  right: -10px;
 }
+nav ul li:nth-child(4):after {
+  content: "+27";
+  color: #ffffff;
+  display: block;
+  width: 30px;
+  height: 22px;
+  font-size: 12px;
+  border-radius: 40%;
+  background-color: #e86f56;
+  position: absolute;
+  text-align: center;
+  line-height: 22px;
+  top: -10px;
+  right: -10px;
+}
+nav ul li:nth-child(5):after {
+  content: "+109";
+  color: #ffffff;
+  display: block;
+  width: 30px;
+  height: 22px;
+  font-size: 12px;
+  border-radius: 40%;
+  background-color: #e86f56;
+  position: absolute;
+  text-align: center;
+  line-height: 22px;
+  top: -10px;
+  right: -10px;
+}
+/*
+.numbermessage:after {
+
+    content: "+14";
+    color: #ffffff;
+    display:block;
+    width: 30px;
+    height: 22px;
+    font-size: 12px;
+    border-radius: 40%;
+    background-color: #e86f56;
+    position: absolute;
+    text-align: center;
+    line-height: 22px;
+    top: -10px;
+    right:-10px;
+
+}
+*/
 .fotobond {
   /* Style for "img" */
   width: 64px;
