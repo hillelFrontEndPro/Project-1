@@ -1,0 +1,23 @@
+[
+  {
+    "author" : "John Stone",
+    "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...",
+    "time" : "1501542778",
+    "ip" : "172.10.56.3",
+    "avatar" : "assets/images/commentAuthor_1.png"
+  },
+  {
+    "author" : "Anna Anderson",
+    "text" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "time" : "1501531978",
+    "ip" : "172.10.56.3",
+    "avatar" : "assets/images/commentAuthor_2.png"
+  },
+  {
+    "author" : "Josh Stone",
+    "text" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "time" : "1501445578",
+    "ip" : "172.10.56.3",
+    "avatar" : "assets/images/commentAuthor_3.png"
+  }
+]
