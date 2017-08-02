@@ -6819,17 +6819,28 @@ header {
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   background-color: #7a706e;
+  float: left;
+  text-align: center;
 }
-header ul {
-  list-style: none;
+/*header {list-style: none;
   width: 100%;
-  height: 100px;
-}
-header ul li {
+  height: 100px;}
+
+header ul li{
   display: block;
+  float: right;
   padding-left: 20px !important;
   padding-right: 30px !important;
-  position: relative;
+  position:relative;
+}*/
+.namefirm {
+  display: block;
+  float: left;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.logo1 {
+  float: left;
 }
 .novus {
   /* Style for "Novus" */
@@ -6856,7 +6867,7 @@ nav {
 nav ul {
   list-style: none;
   width: 100%;
-  height: 100px;
+  height: 130px;
 }
 nav ul li {
   display: block;
