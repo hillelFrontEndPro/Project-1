@@ -1,20 +1,21 @@
-var gulp = require('gulp');
-var concat = require('gulp-concat');
-var rename = require('gulp-rename');
-var less = require('gulp-less');
-var autoprefixer = require('gulp-autoprefixer');
-var cssmin = require('gulp-clean-css');
-var jsmin = require('gulp-uglify');
-var webserver = require('gulp-webserver');
-var livereload = require('gulp-livereload');
+let gulp = require('gulp'),
+    concat = require('gulp-concat'),
+    rename = require('gulp-rename'),
+    less = require('gulp-less'),
+    autoprefixer = require('gulp-autoprefixer'),
+    cssmin = require('gulp-clean-css'),
+    jsmin = require('gulp-uglify'),
+    webserver = require('gulp-webserver'),
+    livereload = require('gulp-livereload');
 
-var path = {
+let path = {
     html: [
         './*.html'
     ],
     styles: {
         src: [
             './node_modules/bootstrap/dist/css/bootstrap.css',
+            // './node_modules/font-awesome/css/font-awesome.min.css',
             './node_modules/highcharts/css/highcharts.css',
             './assets/styles/index.less'
         ],
@@ -33,13 +34,14 @@ var path = {
             './node_modules/highcharts/modules/data.js',
             './node_modules/highcharts/js/highcharts.js',
             './node_modules/jquery-ui-dist/jquery-ui.js',
+            './node_modules/moment/moment.js',
             './assets/js/*.js'
         ],
         name: 'scripts',
         dest: './build/'
     }
 };
-var watchersPath = {
+let watchersPath = {
     html: [
         './*.html'
     ],
@@ -47,7 +49,7 @@ var watchersPath = {
         './assets/styles/*.less'
     ],
     scripts: [
-        '.assets/js/*.js'
+        './assets/js/*.js'
     ]
 };
 

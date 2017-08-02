@@ -3,50 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="/build/style.css">
+    <link rel="stylesheet" href="build/style.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
 <div class="wrapper">
     <header>
-        <nav class="navclass">
-            <ul class="list-inline">
-                <li>
-                    <div class="fotobond">
-                        <img src="assets/images/foto1.png" class="foto1">
-                    </div>
-                </li>
+        <ul class="list-inline">
+            <li>
+                <div class="fotobond">
+                    <img src="assets/images/logo.png" class="logo1">
+                </div>
+            </li>
 
-                <li>
-                    <div class="bond"> Michael Williams</div>
-                    <div class="emailbond"> @mwilliams</div>
-                </li>
-                <li>
-
-                    <div class="black textstyle">Users</div>
-                    <div class="white textstyle">215K</div>
-                    <div class="numbermessage">
-                        <!--<img src="assets/images/shape.png">-->
-                    </div>
-                </li>
-                <li>
-                    <div class="black textstyle">Orders</div>
-                    <div class="white textstyle">1857</div>
-                </li>
-                <li>
-                    <div class="black textstyle">Visits</div>
-                    <div class="white textstyle">749</div>
-                </li>
-                <li>
-                    <img src="assets/images/graph1.png" class="foto1">
-                </li>
-                <li>
-                    <div class="black textstyle">Balance</div>
-                    <div class="white textstyle">$26.425</div>
-                </li>
-                <li><img src="assets/images/graph2.png" class="foto1"></li>
-            </ul>
-        </nav>
+            <li>
+                <div class="novus"> Novus</div>
+                <div class="adminPT"> Admin Panel Template</div>
+            </li>
+            <li>
+                <input type="text" class="form-control" placeholder="Search">
+            </li>
+            <li>
+                <div class="black textstyle">Users</div>
+                <div class="white textstyle">215K</div>
+                <div class="numbermessage">
+                    <!--<img src="assets/images/shape.png">-->
+                </div>
+            </li>
+            <li>
+                <div class="black textstyle">Orders</div>
+                <div class="white textstyle">1857</div>
+            </li>
+            <li>
+                <div class="black textstyle">Visits</div>
+                <div class="white textstyle">749</div>
+            </li>
+            <li>
+                <img src="assets/images/graph1.png" class="foto1">
+            </li>
+            <li>
+                <div class="black textstyle">Balance</div>
+                <div class="white textstyle">$26.425</div>
+            </li>
+            <li><img src="assets/images/graph2.png" class="foto1"></li>
+        </ul>
     </header>
+    <nav class="navclass">
+        <ul class="list-inline">
+            <li>
+                <div class="fotobond">
+                    <img src="assets/images/foto1.png" class="foto1">
+                </div>
+            </li>
+            <li>
+                <div class="bond"> Michael Williams</div>
+                <div class="emailbond"> @mwilliams</div>
+            </li>
+            <li>
+                <div class="black textstyle">Users</div>
+                <div class="white textstyle">215K</div>
+                <div class="numbermessage">
+                    <!--<img src="assets/images/shape.png">-->
+                </div>
+            </li>
+            <li>
+                <div class="black textstyle">Orders</div>
+                <div class="white textstyle">1857</div>
+            </li>
+            <li>
+                <div class="black textstyle">Visits</div>
+                <div class="white textstyle">749</div>
+            </li>
+            <li>
+                <img src="assets/images/graph1.png" class="foto1">
+            </li>
+            <li>
+                <div class="black textstyle">Balance</div>
+                <div class="white textstyle">$26.425</div>
+            </li>
+            <li><img src="assets/images/graph2.png" class="foto1"></li>
+        </ul>
+    </nav>
     <main>
         <div class="sidebar">
             <ul>
@@ -79,9 +116,74 @@
                     <a href="#">Other Pages</a>
                 </li>
             </ul>
+            <div class="end-sidebar"></div>
         </div>
         <div class="container-content">
-            <div class="dashboard"></div>
+            <div class="dashboard">
+                <div class="menu_dashboard">
+                    <div class="welcome">
+                        <h3>Dashboard</h3>
+                        <h5>Welcome</h5>
+                    </div>
+                    <div class="part_menu active">
+                        <i class="fa fa-th fa-3x" aria-hidden="true"></i>
+                        <br/>
+                        <h5>Quick Menu Actions</h5>
+                        <div class="arrow"></div>
+                    </div>
+                    <div class="part_menu">
+                        <i class="fa fa-bar-chart fa-3x" aria-hidden="true"></i>
+                        <br/>
+                        <h5>Web Site Statistics</h5>
+                        <div class="arrow"></div>
+                    </div>
+                    <div class="part_menu">
+                        <i class="fa fa-calendar fa-3x" aria-hidden="true"></i>
+                        <br/>
+                        <h5>Calendar</h5>
+                        <div class="arrow"></div>
+                    </div>
+                </div>
+
+                <!-- Панели -->
+                <div class="tab-content">
+                    <!-- Панель 1 -->
+                    <div id="hexagon" class="tab-pane fade in active">
+                        <!-- Содержимое панели 1 -->
+                        <img src="assets/images/hexagon_1.png" data-toggle="tooltip" data-placement="top"
+                             title="Add Article">
+                        <i class="fa fa-plus fa-2x"></i>
+
+                        <img src="assets/images/hexagon_2.png" data-toggle="tooltip" data-placement="top"
+                             title="Statistics">
+                        <i class="fa fa-bar-chart fa-2x"></i>
+
+                        <img src="assets/images/hexagon_3.png" data-toggle="tooltip" data-placement="top"
+                             title="Media Post">
+                        <i class="fa fa-refresh fa-2x"></i>
+
+                        <img src="assets/images/hexagon_4.png" data-toggle="tooltip" data-placement="top"
+                             title="Layout Settings">
+                        <i class="fa fa-cog fa-2x"></i>
+
+                        <img src="assets/images/hexagon_5.png" data-toggle="tooltip" data-placement="top"
+                             title="Refresh Files">
+                        <i class="fa fa-cloud fa-2x"></i>
+
+                        <img src="assets/images/hexagon_3.png" data-toggle="tooltip" data-placement="top"
+                             title="Create New Task">
+                        <i class="fa fa-align-justify fa-2x"></i>
+                    </div>
+                    <!-- Панель 2 -->
+                    <div id="#" class="tab-pane fade">
+                        <!-- Содержимое панели 2 -->
+                    </div>
+                    <!-- Панель 3 -->
+                    <div id="#" class="tab-pane fade">
+                        <!-- Содержимое панели 3 -->
+                    </div>
+                </div>
+            </div>
             <div class="highcharts">
                 <div>
                     <ul class="nav nav-tabs" role="tablist">
@@ -117,24 +219,73 @@
                     </div>
                 </div>
             </div>
-            <div class="comments"></div>
-            <div class="calendar">
-                    <div class="col-md-5">
-                        <div class="form-group">
-                            <h3 class="header-calendar">Calendar</h3>
-                            <div class="text-datepicker-wrapper">
-                                <img src="assets/images/icon-calendar.png" alt="">
-                                <div id="datepicker">03/10/2013</div>
+            <div class="comments">
+                <div class="commentsHeader">
+                    <p>Recent Comments</p>
+                    <button class="btn1"></button>
+                    <button class="btn2"></button>
+                </div>
+                <div class="commentsContent">
+                    <div class="item-comment clearfix">
+                        <div class="commentAuthor">
+                            <img src="" alt="">
+                        </div>
+                        <div class="commentInfo">
+                            <div class="commentHeader clearfix">
+                                <div class="userInfo">
+                                    <p class="author"></p>
+                                    <p class="commentTimeIP"></p>
+                                </div>
+                                <div class="userIP">
+                                    <span class="ip-title">IP:&nbsp;</span>
+                                    <span class="ip"></span>
+                                    <button class="btnAnswerComment">
+                                        <img src="assets/images/answer_Comment_Button.png" alt="">
+                                    </button>
+                                </div>
                             </div>
-                            <div id="datepickerBlock"></div>
+                            <div class="commentText">
+                                <p></p>
+                            </div>
                         </div>
                     </div>
+                </div>
             </div>
-            <div class="form"></div>
+            <div class="calendar">
+                <h3 class="header-calendar">Calendar</h3>
+                <div class="text-datepicker-wrapper">
+                    <img src="assets/images/icon-calendar.png" alt="">
+                    <div id="datepicker">03/10/2013</div>
+                </div>
+                <div id="datepickerBlock"></div>
+            </div>
+            <div class="form">
+                <form id="forminput" class="form-group">
+                    <input type="text">
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Dropdown menu
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                    <input type="text">
+                    <br>
+                    <textarea name="comment" cols="22" rows="3"></textarea>
+                    <br>
+                    <input type="button" class="btn btn-success" id="bottomsubmit" value="Submit">
+                </form>
+            </div>
         </div>
     </main>
 </div>
 <script src="build/scripts.js"></script>
 </body>
 </html>
-
