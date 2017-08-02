@@ -1,14 +1,14 @@
-var gulp = require('gulp');
-var concat = require('gulp-concat');
-var rename = require('gulp-rename');
-var less = require('gulp-less');
-var autoprefixer = require('gulp-autoprefixer');
-var cssmin = require('gulp-clean-css');
-var jsmin = require('gulp-uglify');
-var webserver = require('gulp-webserver');
-var livereload = require('gulp-livereload');
+let gulp = require('gulp'),
+    concat = require('gulp-concat'),
+    rename = require('gulp-rename'),
+    less = require('gulp-less'),
+    autoprefixer = require('gulp-autoprefixer'),
+    cssmin = require('gulp-clean-css'),
+    jsmin = require('gulp-uglify'),
+    webserver = require('gulp-webserver'),
+    livereload = require('gulp-livereload');
 
-var path = {
+let path = {
     html: [
         './*.html'
     ],
@@ -28,13 +28,14 @@ var path = {
         src: [
             './node_modules/jquery/dist/jquery.js',
             './node_modules/bootstrap/dist/js/bootstrap.js',
+            './node_modules/moment/moment.js',
             './assets/js/*.js'
         ],
         name: 'scripts',
         dest: './build/'
     }
 };
-var watchersPath = {
+let watchersPath = {
     html: [
         './*.html'
     ],
@@ -42,7 +43,7 @@ var watchersPath = {
         './assets/styles/*.less'
     ],
     scripts: [
-        '.assets/js/*.js'
+        './assets/js/*.js'
     ]
 };
 
@@ -74,7 +75,7 @@ gulp.task('scripts', function () {
         .pipe(concat('scripts.js'))
         .pipe(rename(path.scripts.name + '.js'))
         .pipe(gulp.dest(path.scripts.dest))
-        .pipe(jsmin())
+        /*.pipe(jsmin())*/
         .pipe(rename(path.scripts.name + '.min.js'))
         .pipe(gulp.dest(path.scripts.dest))
         .pipe(livereload());

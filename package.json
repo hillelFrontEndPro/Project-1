@@ -18,7 +18,8 @@
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^4.3.11",
     "gulp-webserver": "^0.9.1",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1"
   },
   "devDependencies": {},
   "scripts": {
