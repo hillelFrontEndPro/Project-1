@@ -31,6 +31,8 @@ var path = {
             './node_modules/highcharts/js/highcharts.js',
             './node_modules/highcharts/modules/exporting.js',
             './node_modules/highcharts/modules/data.js',
+            './node_modules/highcharts/js/highcharts.js',
+            './node_modules/jquery-ui-dist/jquery-ui.js',
             './assets/js/*.js'
         ],
         name: 'scripts',

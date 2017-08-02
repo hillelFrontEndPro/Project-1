@@ -1,15 +1,125 @@
 @import "fonts";
 
-#containerHighcharts {
-  min-width: 310px;
-  max-width: 800px;
-  height: 400px;
-  margin: 0 auto;
+.titleHighcharts {
+  float: left;
+  margin: 0 35px;
+  margin-top: 50px;
+  div {
+    &:nth-child(1) {
+      color: #3e3e3e;
+      font-size: 14px;
+      font-family: 'open_sansbold';
+
+    }
+    &:nth-child(2) {
+      color: #b3b3b3;
+      font-size: 12px;
+      padding:10px 0 ;
+    }
+    &:nth-child(3) {
+
+      color: #3e3e3e;
+      font-size: 24px;
+      font-family: 'open_sansbold';
+    }
+  }
+}
+
+.icon-plus {
+  vertical-align: middle;
+  position: relative;
+
+    &:before {
+      content: '+';
+      position: relative;
+      display: inline-block;
+      margin-right:5px;
+      width: 22px;
+      height: 22px;
+      background-color: #8fd7d4;
+      color: #ffffff;
+      font-size: 16px;
+      border-radius: 50%;
+      vertical-align: middle;
+      text-align: center;
+    }
 
 }
 
-.highcharts-color-0 {
-  fill: rgba(143, 215, 212, 0.2);
-  stroke: #42bab5;
+.icon-time {
+  margin-right: 5px;
 }
+
+
+.tab-content {
+  background-color: #ffffff;
+}
+
+.nav-tabs {
+  a {
+    color: #3e3e3e;
+    font-size: 14px;
+    font-family: 'open_sansbold';
+  }
+}
+
+.highcharts-button-symbol {
+  display: none;
+}
+
+
+.highcharts-credits {
+ display: none;
+}
+
+.highcharts-xaxis-grid .highcharts-grid-line {
+  stroke-width: 1;
+}
+
+.highcharts-title {
+  display: none;
+}
+
+.highcharts-axis-title {
+  display: none;
+}
+
+.highcharts-tooltip-box {
+  stroke-width: 1px;
+  fill: #3e3e3e;
+  fill-opacity: 0.5;
+}
+
+.highcharts-tooltip text {
+  fill: #ffffff;
+}
+
+
+.highcharts-legend-item  {
+  display: none;
+}
+
+#containerHighcharts1 {
+  display: inline-block;
+
+  .highcharts-color-0 {
+    fill: rgba(143, 215, 212, 0.2);
+    stroke: #42bab5;
+  }
+}
+
+
+#containerHighcharts2 {
+  display: inline-block;
+
+  .highcharts-color-0 {
+    fill: rgba(120, 20, 80, 0.3);
+    stroke: #e97056;
+  }
+}
+
+#containerHighcharts3 {
+  display: inline-block;
+}
+
 

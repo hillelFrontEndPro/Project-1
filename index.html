@@ -8,16 +8,25 @@
 <body>
 <div class="wrapper">
     <header>
-        <nav>
-            <ul>
-                <li><img src="assets/images/foto1.jpg" class="foto1"></li>
+        <nav class="navclass">
+            <ul class="list-inline">
                 <li>
-                    <div class="bond"> Michael Williams </div>
+                    <div class="fotobond">
+                        <img src="assets/images/foto1.png" class="foto1">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="bond"> Michael Williams</div>
                     <div class="emailbond"> @mwilliams</div>
-                    </li>
+                </li>
                 <li>
+
                     <div class="black textstyle">Users</div>
                     <div class="white textstyle">215K</div>
+                    <div class="numbermessage">
+                        <!--<img src="assets/images/shape.png">-->
+                    </div>
                 </li>
                 <li>
                     <div class="black textstyle">Orders</div>
@@ -44,7 +53,6 @@
                 <li>
                     <img src="assets/images/sidebar-icon.png" alt="">
                     <a href="#">Dashboard</a>
-                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                 </li>
                 <li>
                     <img src="assets/images/sidebar-icon2.png" alt="">
@@ -55,10 +63,10 @@
                     <a href="#">Form Stuff</a>
                 </li>
                 <li>
-                    <img src="assets/images/sidebar-icon4.png" alt="">
-                    <a href="#">Messages</a>
+                    <img   src="assets/images/sidebar-icon4.png" alt="">
+                    <a class="messages" href="#">Messages</a>
                 </li>
-                <li>
+                <li class="sidebar-statistics">
                     <img src="assets/images/sidebar-icon5.png" alt="">
                     <a href="#">Statistics</a>
                 </li>
@@ -75,10 +83,53 @@
         <div class="container-content">
             <div class="dashboard"></div>
             <div class="highcharts">
-                <div id="containerHighcharts"></div>
+                <div>
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="active"><a href="#tabHighcharts1" aria-controls="home" role="tab" data-toggle="tab">Visitors Statistic</a></li>
+                        <li><a href="#tabHighcharts2" aria-controls="profile" role="tab" data-toggle="tab">Orders Statistic</a></li>
+                        <li><a href="#tabHighcharts3" aria-controls="messages" role="tab" data-toggle="tab">Users Statistic</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="tabHighcharts1">
+                            <div class="titleHighcharts">
+                                <div >Today’s visitors</div>
+                                <div ><img class="icon-time" src="assets/images/icon-clock.png" alt="">5:23 pm</div>
+                                <div class="icon-plus">16,481</div>
+                            </div>
+                            <div id="containerHighcharts1"></div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="tabHighcharts2">
+                            <div class="titleHighcharts">
+                                <div >Orders</div>
+                                <div>During 2017</div>
+                                <div>max:<br>260K</div>
+                            </div>
+                            <div id="containerHighcharts2"></div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="tabHighcharts3">
+                            <div class="titleHighcharts">
+                                <div>Users</div>
+                                <div>from 2013 till 2017</div>
+                                <div>max:<br>600K</div>
+                            </div>
+                            <div id="containerHighcharts3"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="comments"></div>
-            <div class="calendar"></div>
+            <div class="calendar">
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <h3 class="header-calendar">Calendar</h3>
+                            <div class="text-datepicker-wrapper">
+                                <img src="assets/images/icon-calendar.png" alt="">
+                                <div id="datepicker">03/10/2013</div>
+                            </div>
+                            <div id="datepickerBlock"></div>
+                        </div>
+                    </div>
+            </div>
             <div class="form"></div>
         </div>
     </main>
