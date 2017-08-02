@@ -6910,27 +6910,83 @@ nav ul li {
 .sidebar img {
   margin-top: 20px;
 }
-.menu_actions {
-  height: 142px;
-  width: 100%;
-}
 #hexagon img {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 50px;
-}
-.glyphicon {
-  right: 58px;
-  top: 35px;
-  font-size: 30px;
-  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
 }
 .welcome {
+  display: inline-block;
+  height: 85px;
   width: 200px;
   margin-left: 60px;
 }
-.tabs {
-  width: 495px;
+.menu_dashboard {
+  display: inline-block;
+  background-color: #f0f0f0;
+  height: 115px;
+  width: 880px;
+}
+.menu_dashboard i {
+  margin-top: 15px;
+  text-align: center;
+  color: #b5adac;
+}
+.part_menu h5 {
+  color: #b5adac;
+  margin-bottom: 20px;
+}
+.part_menu {
+  border-left: 1px solid #b5adac;
+  display: inline-block;
+  height: 115px;
+  width: 165px;
+  text-align: center;
+}
+.part_menu i:hover {
+  color: #e86f56;
+}
+.part_menu h5:hover {
+  color: #3e3e3e;
+}
+.part_menu:hover {
+  border-bottom: 3px solid #3e3e3e ;
+}
+.arrow {
+  display: none;
+}
+.arrow:hover {
+  display: block;
+  background: #3e3e3e;
+  position: relative;
+  color: #fff;
+}
+.arrow:after {
+  content: '';
+  position: absolute;
+  /* Абсолютное позиционирование */
+  left: 70px;
+  bottom: -30px;
+  /* Положение треугольника */
+  border: 10px solid transparent;
+  /* Прозрачные границы */
+  border-top: 10px solid #3e3e3e;
+  /* Добавляем треугольник */
+}
+.tab-content {
+  background-color: #f6f6f6;
+}
+.tab-content i {
+  position: relative;
+  top: 7px;
+  right: 60px;
+  color: #fff;
+}
+.tab-content .fa-plus {
+  right: 55px;
+}
+.tab-content .fa-cog {
+  right: 57px;
 }
 * {
   padding: 0;

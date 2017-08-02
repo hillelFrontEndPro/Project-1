@@ -15,6 +15,7 @@ var path = {
     styles: {
         src: [
             './node_modules/bootstrap/dist/css/bootstrap.css',
+            // './node_modules/font-awesome/css/font-awesome.min.css',
             './assets/styles/index.less'
         ],
         dependencies: [
