@@ -16,6 +16,7 @@ let path = {
         src: [
             './node_modules/bootstrap/dist/css/bootstrap.css',
             './node_modules/font-awesome/css/font-awesome.min.css',
+            './node_modules/highcharts/css/highcharts.css',
             './assets/styles/index.less'
         ],
         dependencies: [
@@ -28,6 +29,11 @@ let path = {
         src: [
             './node_modules/jquery/dist/jquery.js',
             './node_modules/bootstrap/dist/js/bootstrap.js',
+            './node_modules/highcharts/js/highcharts.js',
+            './node_modules/highcharts/modules/exporting.js',
+            './node_modules/highcharts/modules/data.js',
+            './node_modules/highcharts/js/highcharts.js',
+            './node_modules/jquery-ui-dist/jquery-ui.js',
             './node_modules/moment/moment.js',
             './assets/js/*.js'
         ],
@@ -75,7 +81,7 @@ gulp.task('scripts', function () {
         .pipe(concat('scripts.js'))
         .pipe(rename(path.scripts.name + '.js'))
         .pipe(gulp.dest(path.scripts.dest))
-        /*.pipe(jsmin())*/
+        .pipe(jsmin())
         .pipe(rename(path.scripts.name + '.min.js'))
         .pipe(gulp.dest(path.scripts.dest))
         .pipe(livereload());
