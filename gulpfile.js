@@ -15,7 +15,8 @@ let path = {
     styles: {
         src: [
             './node_modules/bootstrap/dist/css/bootstrap.css',
-            // './node_modules/font-awesome/css/font-awesome.min.css',
+            /*'./node_modules/font-awesome/css/font-awesome.css',*/
+            './node_modules/moment/moment.js',
             './assets/styles/index.less'
         ],
         dependencies: [
@@ -29,6 +30,7 @@ let path = {
             './node_modules/jquery/dist/jquery.js',
             './node_modules/bootstrap/dist/js/bootstrap.js',
             './node_modules/moment/moment.js',
+            './node_modules/simple-pagination.js',
             './assets/js/*.js'
         ],
         name: 'scripts',

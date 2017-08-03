@@ -9,5 +9,5 @@ $(document).ready(function() {
     //     $(this).tab('show');
     // });
 
-    $('[data-toggle="tooltip"]').tooltip(show);
+    $('[data-toggle="tooltip"]').tooltip();
 });

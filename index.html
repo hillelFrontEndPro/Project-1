@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="node_modules/simple-pagination.js/simplePagination.css"/>
     <link rel="stylesheet" href="build/style.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -147,19 +147,17 @@
             <div class="comments">
                 <div class="commentsHeader">
                     <p>Recent Comments</p>
-                    <button class="btn1"></button>
-                    <button class="btn2"></button>
                 </div>
                 <div class="commentsContent">
-                    <div class="item-comment clearfix">
+                    <div class="item-comment clearfix" data-comment="0">
                         <div class="commentAuthor">
-                            <img src="" alt="">
+                            <img src="" alt="" class="commentAuthorAva">
                         </div>
                         <div class="commentInfo">
                             <div class="commentHeader clearfix">
                                 <div class="userInfo">
                                     <p class="author"></p>
-                                    <p class="commentTimeIP"></p>
+                                    <p class="commentTime"></p>
                                 </div>
                                 <div class="userIP">
                                     <span class="ip-title">IP:&nbsp;</span>
@@ -170,9 +168,10 @@
                                 </div>
                             </div>
                             <div class="commentText">
-                                <p></p>
+                                <p class="textComment"></p>
                             </div>
                         </div>
+                        <div id="light-pagination" class="pagination"></div>
                     </div>
                 </div>
             </div>
@@ -204,11 +203,7 @@
         </div>
     </main>
 </div>
-
-<<<<<<< HEAD
-=======
 <script type="application/javascript" src="build/scripts.js"></script>
->>>>>>> origin/master
 </body>
 </html>
 

@@ -37,13 +37,15 @@
   }
   .commentsContent {
     width: 540px;
+    height: 500px;
     .item-comment {
+      max-height: 33.3%;
       border-top: 1px solid #e8e8e8;
       border-bottom: 1px solid #e8e8e8;
       .commentAuthor {
         float: left;
-        width: 115px;
-        padding: 15px 15px 0 30px;
+        width: 100px;
+        padding: 10px 15px 0 30px;
         height: inherit;
         img {
           width: 65px;
@@ -53,6 +55,7 @@
       }
       .commentInfo {
         .commentHeader {
+          margin-top: 0;
           position: static;
           .userInfo {
             float: left;
@@ -61,7 +64,7 @@
               padding-top: 30px;
               margin-bottom: 5px;
             }
-            .commentTimeIP {
+            .commentTime {
               .commentFont(12px, #b3b3b3);
               float: left;
             }
@@ -105,4 +108,9 @@
     }
   }
 }
+
+
+
+
+
 

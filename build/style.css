@@ -7140,7 +7140,7 @@ ol {
   padding-top: 30px;
   margin-bottom: 5px;
 }
-.comments .commentsContent .item-comment .commentInfo .commentHeader .userInfo .commentTimeIP {
+.comments .commentsContent .item-comment .commentInfo .commentHeader .userInfo .commentTime {
   font-family: 'open_sansbold';
   font-weight: normal;
   font-size: 12px;

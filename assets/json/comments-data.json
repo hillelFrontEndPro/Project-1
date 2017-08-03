@@ -4,20 +4,74 @@
     "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...",
     "time" : "1501542778",
     "ip" : "172.10.56.3",
-    "avatar" : "assets/images/commentAuthor_1.png"
+    "avatar" : "assets/images/commentAuthor_1.png",
+    "hasAnswer" : ""
   },
   {
     "author" : "Anna Anderson",
     "text" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "time" : "1501531978",
     "ip" : "172.10.56.3",
-    "avatar" : "assets/images/commentAuthor_2.png"
+    "avatar" : "assets/images/commentAuthor_2.png",
+    "hasAnswer" : ""
   },
   {
-    "author" : "Josh Stone",
+    "author" : "Erik Mayer",
     "text" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "time" : "1501445578",
     "ip" : "172.10.56.3",
-    "avatar" : "assets/images/commentAuthor_3.png"
+    "avatar" : "assets/images/commentAuthor_3.png",
+    "hasAnswer" : ""
+  },
+  {
+    "author" : "Stone John",
+    "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. Ut enim ad...",
+    "time" : "1494450145",
+    "ip" : "172.10.56.3",
+    "avatar" : "assets/images/commentAuthor_4.png",
+    "hasAnswer" : ""
+  },
+  {
+    "author" : "Piter Parker",
+    "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. Ut enim ad...",
+    "time" : "1491685345",
+    "ip" : "172.10.56.3",
+    "avatar" : "assets/images/commentAuthor_5.png",
+    "hasAnswer" : ""
+  },
+  {
+    "author" : "Orlando John",
+    "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. Ut enim ad...",
+    "time" : "1491339745",
+    "ip" : "172.10.56.3",
+    "avatar" : "assets/images/commentAuthor_6.png",
+    "hasAnswer" : ""
+  },
+  {
+    "id" : 7,
+    "author" : "Stone Stiven",
+    "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. Ut enim ad...",
+    "time" : "1491080545",
+    "ip" : "172.10.56.3",
+    "avatar" : "assets/images/commentAuthor_7.png",
+    "hasAnswer" : ""
+  },
+  {
+    "id" : 8,
+    "author" : "Creige Marloy",
+    "text" : "Lorem ipsum sed do eiusmod. Ut enim ad minim veniam...",
+    "time" : "1491858145",
+    "ip" : "172.10.56.3",
+    "avatar" : "assets/images/commentAuthor_8.png",
+    "hasAnswer" : ""
+  },
+  {
+    "id" : 9,
+    "author" : "Stive Hinigen",
+    "text" : "Dolor sit amet, consectetur adipisicing elit, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...",
+    "time" : "1455138145",
+    "ip" : "172.10.56.3",
+    "avatar" : "assets/images/commentAuthor_9.png",
+    "hasAnswer" : ""
   }
 ]
