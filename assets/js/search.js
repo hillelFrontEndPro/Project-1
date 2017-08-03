@@ -1,15 +1,23 @@
-/**
- * Created by sergeygalchenko on 03.08.17.
- */
+
 'use strict';
 
-function validateForm() {
-    valid = true;
 
-    if ( document.searchForm.searchInp.value === "" )
-    {
-        alert ( "Пожалуйста, заполните поле 'Search...'.");
-        // document.searchForm.searchInp.style.borderColor = 'red';
-        valid = false;
+function validate() {
+    var formElem = document.forms.searchForm.elements;
+
+    for (var i = 0; i < formElem.length; i++) {
+        if (formElem[i].name === 'searchInp') {
+            if (formElem[i].value == "") {
+                formElem[i].style.borderColor = 'red';
+
+            } else {
+                formElem[i].style.borderColor = 'green';
+                if (formElem[i].style.borderColor = 'green') {
+
+                }
+            }
+        }
     }
 }
+
+

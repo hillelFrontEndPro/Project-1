@@ -34,20 +34,17 @@
                 <h5> Admin Panel Template</h5>
             </div>
         </div>
-
         <div class="form_buttons">
             <div class="search_header">
-                <form id="searchForm" name="searchForm" onsubmit="validateForm();">
+                <form id="searchForm" name="searchForm">
                     <input type="text" name="searchInp" id="search" placeholder="Search..." />
-                    <button type="submit" class="icon" ><i class="fa fa-search"></i></button>
+                    <div class="btn-validate"><i onclick="validate()" class="fa fa-search"></i><input type="button" onclick="validate()"></div>
                     <button class="icon" name="settings"><i class="fa fa-cog"></i></button>
                     <button class="icon" name="message"><i class="fa fa-comment"></i></button>
                     <button class="icon" name="exit"><i class="fa fa-times"></i></button>
                 </form>
-
             </div>
         </div>
-
     </header>
     <nav class="navclass">
         <ul class="list-inline">
