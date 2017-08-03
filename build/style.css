@@ -10351,14 +10351,6 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
 }
-.dashboard {
-  background: #5cb85c;
-  height: 230px;
-}
-.statistics {
-  background: #269abc;
-  height: 285px;
-}
 .comments {
   float: left;
   height: 635px;
