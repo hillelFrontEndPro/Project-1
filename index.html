@@ -19,6 +19,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="manifest" href="/favicon/manifest.json">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
@@ -26,44 +27,24 @@
 <body>
 <div class="wrapper">
     <header>
-        <ul class="list-inline">
-            <li>
-                <div class="fotobond">
-                    <img src="assets/images/logo.png" class="logo1">
-                </div>
-            </li>
-
-            <li>
-                <div class="novus"> Novus</div>
-                <div class="adminPT"> Admin Panel Template</div>
-            </li>
-            <li>
-                <input type="text" class="form-control" placeholder="Search">
-            </li>
-            <li>
-                <div class="black textstyle">Users</div>
-                <div class="white textstyle">215K</div>
-                <div class="numbermessage">
-                    <!--<img src="assets/images/shape.png">-->
-                </div>
-            </li>
-            <li>
-                <div class="black textstyle">Orders</div>
-                <div class="white textstyle">1857</div>
-            </li>
-            <li>
-                <div class="black textstyle">Visits</div>
-                <div class="white textstyle">749</div>
-            </li>
-            <li>
-                <img src="assets/images/graph1.png" class="foto1">
-            </li>
-            <li>
-                <div class="black textstyle">Balance</div>
-                <div class="white textstyle">$26.425</div>
-            </li>
-            <li><img src="assets/images/graph2.png" class="foto1"></li>
-        </ul>
+        <div class="logo">
+            <img src="assets/images/logo.png" class="logo1">
+            <div class="logo_text">
+                <h2> Novus</h2>
+                <h5> Admin Panel Template</h5>
+            </div>
+        </div>
+        <div class="form_buttons">
+            <div class="search_header">
+                <form id="searchForm" name="searchForm">
+                    <input type="text" name="searchInp" id="search" placeholder="Search..." />
+                    <div class="btn-validate"><i onclick="validate()" class="fa fa-search"></i><input type="button" onclick="validate()"></div>
+                    <button class="icon" name="settings"><i class="fa fa-cog"></i></button>
+                    <button class="icon" name="message"><i class="fa fa-comment"></i></button>
+                    <button class="icon" name="exit"><i class="fa fa-times"></i></button>
+                </form>
+            </div>
+        </div>
     </header>
     <nav class="navclass">
         <ul class="list-inline">

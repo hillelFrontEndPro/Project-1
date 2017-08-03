@@ -20,10 +20,13 @@
     "gulp-webserver": "^0.9.1",
     "highcharts": "^5.0.14",
     "jquery": "^3.2.1",
+    "jquery-ui": "^1.12.1",
     "jquery-ui-dist": "^1.12.1",
     "moment": "^2.18.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "highcharts": "^5.0.14"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
