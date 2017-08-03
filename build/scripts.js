@@ -17145,14 +17145,10 @@ let cloneItemComment = (index) => {
 'use strict';
 
 $(document).ready(function() {
-<<<<<<< HEAD
     // $("#myTabEvents a").click(function(e){
     //     e.preventDefault();
     //     $(this).tab('show');
     // });
-
-=======
->>>>>>> 62e6f43a15ed7a4a84128024284cf9a35ecde3c4
     $('[data-toggle="tooltip"]').tooltip();
 });
 $(document).ready(function () {
@@ -17245,7 +17241,6 @@ let paginationComments = (items) => {
 'use strict';
 
 /*ajax request to comments data file*/
-<<<<<<< HEAD
 $.ajax({
     type:"GET",
     url:"/assets/json/comments-data.json"
@@ -17254,14 +17249,19 @@ $.ajax({
 }).fail(function (msg) {
     console.log(msg);
 });
-=======
-// $(document).ready($.ajax({
-//     type:"GET",
-//     url:"/assets/json/comments-data.json"
-// }).done(function (data) {
-//     getCommentsData(data); //pass data to function
-// }).fail(function (msg) {
-//     console.log(msg);
-// }));
->>>>>>> 62e6f43a15ed7a4a84128024284cf9a35ecde3c4
 
+/**
+ * Created by sergeygalchenko on 03.08.17.
+ */
+'use strict';
+
+function validateForm() {
+    valid = true;
+
+    if ( document.searchForm.searchInp.value === "" )
+    {
+        alert ( "Пожалуйста, заполните поле 'Search...'.");
+        // document.searchForm.searchInp.style.borderColor = 'red';
+        valid = false;
+    }
+}

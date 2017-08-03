@@ -84,7 +84,7 @@ gulp.task('scripts', function () {
         .pipe(concat('scripts.js'))
         .pipe(rename(path.scripts.name + '.js'))
         .pipe(gulp.dest(path.scripts.dest))
-       /* .pipe(jsmin())*/
+        /*.pipe(jsmin())*/
         .pipe(rename(path.scripts.name + '.min.js'))
         .pipe(gulp.dest(path.scripts.dest))
         .pipe(livereload());
