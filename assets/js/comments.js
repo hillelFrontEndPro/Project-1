@@ -5,9 +5,10 @@ let commentData = (data) => {
         createNewComment(data[index], index+1);
         if (data.length === index+1) {
             $('.item-comment:last-child').remove();
-            paginationComments(index);
+            paginationComments(index+1);
         }
     });
+    defaultHideComment();
 };
 
 let createNewComment = (itemComment, index) => {

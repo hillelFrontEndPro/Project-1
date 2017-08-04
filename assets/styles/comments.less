@@ -5,18 +5,25 @@
   color: @color;
 }
 
+.default {
+  display: block;
+}
+
+.hide-comment {
+  display: none;
+}
+
 .comments {
   float: left;
   height: 635px;
   width: 540px;
   background-color: #f6f6f6;
   .commentsHeader {
-    height: 65px;
-    padding: 25px 0 25px 30px;
+    height: 50px;
+    padding: 15px 0 15px 30px;
     p {
       float: left;
-      font-family: 'open_sansbold';
-      font-size: 16px;
+      .commentFont(16px);
     }
     .btn1, .btn2 {
       float: right;
@@ -29,12 +36,12 @@
     width: 540px;
     height: 500px;
     .item-comment {
-      max-height: 33.3%;
       border-top: 1px solid #e8e8e8;
       border-bottom: 1px solid #e8e8e8;
+      transition: all .5s;
       .commentAuthor {
         float: left;
-        width: 100px;
+        width: 115px;
         padding: 10px 15px 0 30px;
         height: inherit;
         img {
@@ -51,7 +58,7 @@
             float: left;
             .author {
               .commentFont(16px, #4aaca8);
-              padding-top: 30px;
+              padding-top: 20px;
               margin-bottom: 5px;
             }
             .commentTime {
@@ -84,9 +91,10 @@
           }
         }
         .commentText {
-          margin-bottom: 12px;
+          margin-top: 0;
+          margin-bottom: 8px;
           background: white;
-          padding: 20px 20px 20px 15px;
+          padding: 10px 15px 10px 15px;
           border-radius: 4px;
           width: 430px;
           float: right;

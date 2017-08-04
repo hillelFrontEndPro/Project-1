@@ -15,10 +15,9 @@ let path = {
     styles: {
         src: [
             './node_modules/bootstrap/dist/css/bootstrap.css',
-            /*'./node_modules/font-awesome/css/font-awesome.css',*/
-            './node_modules/moment/moment.js',
             './node_modules/font-awesome/css/font-awesome.min.css',
             './node_modules/highcharts/css/highcharts.css',
+            './node_modules/simple-pagination.js/simplePagination.css',
             './assets/styles/index.less'
         ],
         dependencies: [
@@ -37,7 +36,7 @@ let path = {
             './node_modules/highcharts/js/highcharts.js',
             './node_modules/jquery-ui-dist/jquery-ui.js',
             './node_modules/moment/moment.js',
-            './node_modules/simple-pagination.js',
+            './node_modules/simple-pagination.js/jquery.simplePagination.js',
             './assets/js/*.js'
         ],
         name: 'scripts',
