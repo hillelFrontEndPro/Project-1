@@ -1,7 +1,7 @@
 [
   {
     "author" : "John Stone",
-    "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...",
+    "text" : "0: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...",
     "time" : "1501542778",
     "ip" : "172.10.56.3",
     "avatar" : "assets/images/commentAuthor_1.png",
@@ -9,7 +9,7 @@
   },
   {
     "author" : "Anna Anderson",
-    "text" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "text" : "1: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "time" : "1501531978",
     "ip" : "172.10.56.3",
     "avatar" : "assets/images/commentAuthor_2.png",
@@ -17,7 +17,7 @@
   },
   {
     "author" : "Erik Mayer",
-    "text" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "text" : "2: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "time" : "1501445578",
     "ip" : "172.10.56.3",
     "avatar" : "assets/images/commentAuthor_3.png",
@@ -25,7 +25,7 @@
   },
   {
     "author" : "Stone John",
-    "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. Ut enim ad...",
+    "text" : "3: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. Ut enim ad...",
     "time" : "1494450145",
     "ip" : "172.10.56.3",
     "avatar" : "assets/images/commentAuthor_4.png",
@@ -33,7 +33,7 @@
   },
   {
     "author" : "Piter Parker",
-    "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. Ut enim ad...",
+    "text" : "4: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. Ut enim ad...",
     "time" : "1491685345",
     "ip" : "172.10.56.3",
     "avatar" : "assets/images/commentAuthor_5.png",
@@ -41,7 +41,7 @@
   },
   {
     "author" : "Orlando John",
-    "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. Ut enim ad...",
+    "text" : "5: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. Ut enim ad...",
     "time" : "1491339745",
     "ip" : "172.10.56.3",
     "avatar" : "assets/images/commentAuthor_6.png",
@@ -50,7 +50,7 @@
   {
     "id" : 7,
     "author" : "Stone Stiven",
-    "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. Ut enim ad...",
+    "text" : "6: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. Ut enim ad...",
     "time" : "1491080545",
     "ip" : "172.10.56.3",
     "avatar" : "assets/images/commentAuthor_7.png",
@@ -59,7 +59,7 @@
   {
     "id" : 8,
     "author" : "Creige Marloy",
-    "text" : "Lorem ipsum sed do eiusmod. Ut enim ad minim veniam...",
+    "text" : "7: Lorem ipsum sed do eiusmod. Ut enim ad minim veniam...",
     "time" : "1491858145",
     "ip" : "172.10.56.3",
     "avatar" : "assets/images/commentAuthor_8.png",
@@ -68,7 +68,7 @@
   {
     "id" : 9,
     "author" : "Stive Hinigen",
-    "text" : "Dolor sit amet, consectetur adipisicing elit, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...",
+    "text" : "8: Dolor sit amet, consectetur adipisicing elit, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...",
     "time" : "1455138145",
     "ip" : "172.10.56.3",
     "avatar" : "assets/images/commentAuthor_9.png",

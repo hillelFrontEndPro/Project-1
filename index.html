@@ -270,7 +270,7 @@
             </div>
             <div class="form">
                 <form id="forminput" class="form-group">
-                    <input type="text" class="full" placeholder="Usual input field">
+                    <input type="text" class="full" placeholder="Usual input field" id="nameinput">
                     <div class="dropdown">
                         <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Dropdown menu
@@ -286,9 +286,9 @@
                     </div>
                     <input type="text" class="full" placeholder="Single  file uploader">
                     <br>
-                    <textarea name="comment" placeholder="Usual text area"></textarea>
+                    <textarea name="comment" placeholder="Usual text area" id="textinput"></textarea>
                     <br>
-                    <input type="button" class="btn btn-success" id="bottomsubmit" value="Submit">
+                    <input type="button" class="btn btn-success" id="bottomsubmit" value="Submit" onclick="addnewcomment()">
                 </form>
             </div>
         </div>
