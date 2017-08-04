@@ -10033,8 +10033,27 @@ header {
 }
 .search_header input,
 button {
-  border: none;
   outline: none;
+}
+.btn-validate {
+  position: relative;
+  display: inline;
+}
+.btn-validate input {
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  border: 1px solid #6b6261;
+  background-color: #847977;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.btn-validate .fa-search {
+  position: absolute;
+  color: #ffffff;
+  top: 5%;
+  left: 25%;
+  cursor: pointer;
 }
 .search_header button {
   height: 25px;
@@ -10318,7 +10337,7 @@ nav ul li:nth-child(5):after {
 }
 .tab-content-dash i {
   position: relative;
-  top: 7px;
+  top: 1px;
   right: 60px;
   color: #fff;
 }
