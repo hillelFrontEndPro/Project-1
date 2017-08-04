@@ -1,9 +1,16 @@
-
 .commentFont (@fontSize: 16px, @color: black) {
   font-family: 'open_sansbold';
   font-weight: normal;
   font-size: @fontSize;
   color: @color;
+}
+
+.default {
+  display: block;
+}
+
+.hide-comment {
+  display: none;
 }
 
 .comments {
@@ -12,12 +19,11 @@
   width: 540px;
   background-color: #f6f6f6;
   .commentsHeader {
-    height: 65px;
-    padding: 25px 0 25px 30px;
+    height: 50px;
+    padding: 15px 0 15px 30px;
     p {
       float: left;
-      font-family: 'open_sansbold';
-      font-size: 16px;
+      .commentFont(16px);
     }
     .btn1, .btn2 {
       float: right;
@@ -28,13 +34,15 @@
   }
   .commentsContent {
     width: 540px;
+    height: 500px;
     .item-comment {
       border-top: 1px solid #e8e8e8;
       border-bottom: 1px solid #e8e8e8;
+      transition: all .5s;
       .commentAuthor {
         float: left;
         width: 115px;
-        padding: 15px 15px 0 30px;
+        padding: 10px 15px 0 30px;
         height: inherit;
         img {
           width: 65px;
@@ -44,15 +52,16 @@
       }
       .commentInfo {
         .commentHeader {
+          margin-top: 0;
           position: static;
           .userInfo {
             float: left;
             .author {
               .commentFont(16px, #4aaca8);
-              padding-top: 30px;
+              padding-top: 20px;
               margin-bottom: 5px;
             }
-            .commentTimeIP {
+            .commentTime {
               .commentFont(12px, #b3b3b3);
               float: left;
             }
@@ -82,9 +91,10 @@
           }
         }
         .commentText {
-          margin-bottom: 12px;
+          margin-top: 0;
+          margin-bottom: 8px;
           background: white;
-          padding: 20px 20px 20px 15px;
+          padding: 10px 15px 10px 15px;
           border-radius: 4px;
           width: 430px;
           float: right;
@@ -96,4 +106,9 @@
     }
   }
 }
+
+
+
+
+
 
