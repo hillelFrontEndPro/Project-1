@@ -10590,34 +10590,50 @@ nav ul li:nth-child(5):after {
   background-color: #fd8a78;
   border: none;
 }
-.form {
+#forminput {
   width: 300px;
   float: right;
   margin-right: 21px;
   margin-top: 18px;
 }
-.form input {
-  display: block;
-  width: 300px;
-  margin: 10px 5px 0 0;
+.full {
+  width: 100%;
+  border: 1px solid #ddd;
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 10px;
 }
-.form textarea {
-  display: block;
-  width: 300px;
-  margin: 10px 5px 0 0;
-}
-#dropdownMenu1 {
-  display: block;
-  width: 300px;
-  margin: 10px 5px 0 0;
-  text-align: justify;
-}
-#caret {
+#forminput span {
   float: right;
+  margin-top: 10px;
+}
+#forminput button {
+  width: 300px;
+  border: 1px solid #ddd;
+  background-color: #f6f6f6;
+  margin-bottom: 15px;
+  text-align: left;
+}
+#forminput div {
+  margin: 15px 5px 0 0;
+}
+#forminput textarea {
+  height: 75px;
+  width: 300px;
+  resize: none;
+  margin: 15px 5px 0 0;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding-left: 10px;
 }
 #bottomsubmit {
+  width: 70px;
   float: right;
-  width: 150px;
+  background-color: #8fd7d4;
+  border-color: #8fd7d4;
+  color: #4e5d5c;
+  font-weight: bold;
+  outline: none;
 }
 * {
   padding: 0;
@@ -10633,6 +10649,9 @@ ol {
 }
 .hide-comment {
   display: none;
+}
+.item-comment:last-child {
+  display: none !important;
 }
 .comments {
   float: left;
