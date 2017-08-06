@@ -10265,7 +10265,7 @@ nav ul li:nth-child(5):after {
   background-color: rgba(0, 0, 0, 0.14);
 }
 .end-sidebar {
-  height: 495px;
+  height: 547px;
   -webkit-box-shadow: inset -6px 0 0 rgba(0, 0, 0, 0.12);
   box-shadow: inset -6px 0 0 rgba(0, 0, 0, 0.12);
   background-color: #706866;
@@ -10629,6 +10629,7 @@ nav ul li:nth-child(5):after {
 #bottomsubmit {
   width: 70px;
   float: right;
+  margin-top: 15px;
   background-color: #8fd7d4;
   border-color: #8fd7d4;
   color: #4e5d5c;
